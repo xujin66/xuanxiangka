@@ -1,0 +1,43 @@
+*{margin:0;padding: 0;font-family: "微软雅黑";font-size: 12px;}
+body,html{
+	margin: 10px auto 0;
+	width: 300px;
+}
+ul,li{
+	list-style: none;
+}
+#tab{
+	margin: 10px auto 0;
+	width: 500px;
+}
+ul{
+	position: relative;
+	top: 1px;
+	z-index: 100;
+}
+#tab ul li{
+	line-height: 30px;
+	width: 40px;
+	height: 30px;
+	border: #8960A7  solid 1px;
+	text-align: center;
+	margin: 0 5px;
+	cursor: pointer;
+	float: left;
+}
+#tab ul li.select{
+	background: -webkit-linear-gradient(top left,yellow,#f60,red);
+	border: none;
+}
+#tab div{
+	border: #888888 solid 1px;
+	width: 160px;
+	height: 120px;
+	padding-top: 40px;
+	clear: both;
+	text-align: center;
+	display: none;	
+}
+#tab .select{
+	display: block;
+}
